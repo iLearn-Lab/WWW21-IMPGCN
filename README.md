@@ -69,7 +69,7 @@ Our method addresses the **over-smoothing and noisy message propagation problem*
 ### Framework Figure
 
 ```markdown
-![Framework](./assets/Framework.pdf)
+![Framework](./assets/framework.png)
 ```
 
 **Figure 1.** Overall framework of `IMP-GCN`.
