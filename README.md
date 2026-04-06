@@ -72,7 +72,7 @@ Our method addresses the **over-smoothing and noisy message propagation problem*
 ![Framework](./assert/Framework.pdf)
 ```
 
-**Figure 1.** Overall framework of `<Method Name>`.
+**Figure 1.** Overall framework of `IMP-GCN`.
 
 ---
 
