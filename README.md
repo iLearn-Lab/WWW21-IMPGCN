@@ -69,7 +69,7 @@ Our method addresses the **over-smoothing and noisy message propagation problem*
 ### Framework Figure
 
 ```markdown
-![Framework](./assets/framework.png)
+![Framework](./assets/Framework.pdf)
 ```
 
 **Figure 1.** Overall framework of `<Method Name>`.
