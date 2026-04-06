@@ -33,8 +33,7 @@
 请在这里简要说明：
 
 - 论文要解决的问题
-
-现有基于 GCN 的推荐方法（如 NGCF、LightGCN）虽然能够利用高阶邻居信息提升表示能力，但存在过平滑（over-smoothing）问题：随着层数加深，不同用户的表示逐渐趋同，导致推荐性能下降。
+  - 现有基于 GCN 的推荐方法（如 NGCF、LightGCN）虽然能够利用高阶邻居信息提升表示能力，但存在过平滑（over-smoothing）问题：随着层数加深，不同用户的表示逐渐趋同，导致推荐性能下降。
 
 - 方法的核心思想是什么：
   - 只利用“兴趣一致”的高阶邻居信息进行表示学习
@@ -49,11 +48,10 @@
   - 训练集
   - 测试集
 
-### Example Description
+### Description
 
-We present **`<Method Name>`**, a framework for **`<task name>`**.  
-Our method addresses **`<problem>`** by introducing **`<core idea>`**.  
-This repository provides the official implementation, pretrained checkpoints, and evaluation scripts.
+We present **IMP-GCN**, a framework for **collaborative filtering recommendation**.  
+Our method addresses the **over-smoothing and noisy message propagation problem** by introducing an **interest-aware subgraph-based message passing mechanism**, restricting high-order propagation within groups of users sharing similar interests.  
 
 ---
 
