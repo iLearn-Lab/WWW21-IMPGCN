@@ -68,10 +68,6 @@ Our method addresses the **over-smoothing and noisy message propagation problem*
 
 ### Framework Figure
 
-```markdown
-![Framework](./assets/framework.png)
-```
-
 <img src="./assets/framework.png" width="400">
 
 **Figure 1.** Overall framework of `IMP-GCN`.
@@ -96,9 +92,7 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 
 ### Example Results
 
-```markdown
-![Result](./assets/results.png)
-```
+<img src="./assets/results.png" width="400">
 
 ---
 
