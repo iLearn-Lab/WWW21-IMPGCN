@@ -119,26 +119,18 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 如果你的项目对应论文，请提供 BibTeX：
 
 ```bibtex
-@article{yourpaper2025,
-  title={Your Paper Title},
-  author={Author A and Author B and Author C},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2025}
-}
+@inproceedings{10.1145/3442381.3449986,
+author = {Liu, Fan and Cheng, Zhiyong and Zhu, Lei and Gao, Zan and Nie, Liqiang},
+title = {Interest-aware Message-Passing GCN for Recommendation},
+year = {2021},
+publisher = {ACM},
+booktitle = {Proceedings of the Web Conference 2021},
+pages = {1296–1305}
 ```
 
 ---
 
 ## Acknowledgement
-
-可以在这里感谢：
-
-- 指导老师
-- 合作者
-- 使用到的开源项目
-- 数据集或 benchmark 提供方
-
-示例：
 
 - Thanks to our supervisor and collaborators for valuable support.
 - Thanks to the open-source community for providing useful baselines and tools.
