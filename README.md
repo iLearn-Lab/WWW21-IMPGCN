@@ -7,17 +7,6 @@ This is our implementation for the paper:
 Fan Liu, Zhiyong Cheng*, Lei Zhu, Zan Gao and Liqiang Nie*. [Interest-aware Message-Passing GCN for Recommendation](https://arxiv.org/abs/2102.10044). The Web Conference 2021 (WWW'21), Ljubljana, Slovenia, 2021 (“*”= Corresponding author)
 
 
-## Environment Settings
-- Tensorflow-gpu version:  1.3.0
-
-## Example to run the codes.
-
-# gowalla
-Run IMP_GCN.py
-```
-python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size [64,64,64,64,64,64] --lr 0.001 --batch_size 2048 --epoch 2000 --groups 3 --Ks [20,10] --gpu_id 0
-```
-
 # `Interest-aware Message-Passing GCN for Recommendation`
 
 > `<One-sentence summary of the paper or project>`
@@ -99,123 +88,23 @@ This repository provides the official implementation, pretrained checkpoints, an
 
 ---
 
-## Project Structure
 
-```text
-.
-├── assets/                # 图片、框架图、结果图、demo 图
-├── configs/               # 配置文件
-├── data/                  # 数据说明（不建议直接上传大数据本体）
-├── scripts/               # 训练、推理、评测脚本
-├── src/                   # 核心源码
-├── README.md
-├── requirements.txt
-└── LICENSE
-```
 
-如果你的项目结构不同，请按实际情况修改。
-
----
-
-## Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/iLearn-Lab/<repo-name>.git
-cd <repo-name>
-```
-
-### 2. Create environment
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Linux / Mac
-# .venv\Scripts\activate    # Windows
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-> 如果你使用的是 conda、poetry、uv 或 docker，请改成自己的实际安装方式。
-
----
-
-## Checkpoints / Models
-
-如果你们发布了模型权重，可以写：
-
-- **Main checkpoint**: [`Model Link`](<huggingface-model-link>)
-- **Additional checkpoint**: [`Other Checkpoint`](<other-checkpoint-link>)
-
-下载后请放入如下目录：
-
-```text
-checkpoints/
-```
-
-如果需要修改配置路径，也可以说明：
-
-- 修改 `config.yaml` 中的 checkpoint 路径
-- 或在运行脚本时通过参数传入
-
----
-
-## Dataset / Benchmark
-
-如果你们还提供数据集，可以写：
-
-- **Dataset**: [`Dataset Link`](<huggingface-dataset-link>)
-- **Benchmark**: [`Benchmark Link`](<benchmark-link>)
-
-并说明数据组织方式，例如：
-
-```text
-data/
-├── train/
-├── val/
-└── test/
-```
-
-> 如果数据集不能直接公开，请在这里说明申请方式或访问限制。
-
----
 
 ## Usage
 
+## Environment Settings
+- Tensorflow-gpu version:  1.3.0
+
+## Example to run the codes.
+
 ### Training
 
-```bash
-python scripts/train.py
+# gowalla
+Run IMP_GCN.py
 ```
-
-### Inference
-
-```bash
-python scripts/infer.py
+python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size [64,64,64,64,64,64] --lr 0.001 --batch_size 2048 --epoch 2000 --groups 3 --Ks [20,10] --gpu_id 0
 ```
-
-### Evaluation
-
-```bash
-python scripts/eval.py
-```
-
-请根据你的项目实际情况替换成真实命令。  
-如果你的项目没有训练或评测部分，可以删除对应小节。
-
----
-
-## Demo / Visualization
-
-如果你们有演示页面、视频或截图，可以写在这里。
-
-### Demo Video
-
-- [`Demo Link`](<demo-link>)
 
 ### Example Results
 
@@ -234,17 +123,6 @@ python scripts/eval.py
 
 ---
 
-## TODO
-
-- [ ] 完善文档
-- [ ] 补充训练脚本说明
-- [ ] 补充推理脚本说明
-- [ ] 上传模型权重
-- [ ] 上传结果图
-- [ ] 发布 demo / project page
-
----
-
 ## Citation
 
 如果你的项目对应论文，请提供 BibTeX：
@@ -255,17 +133,6 @@ python scripts/eval.py
   author={Author A and Author B and Author C},
   journal={arXiv preprint arXiv:xxxx.xxxxx},
   year={2025}
-}
-```
-
-如果还没有正式论文，也可以临时写成：
-
-```bibtex
-@misc{yourproject2025,
-  title={Your Project Title},
-  author={Your Name},
-  year={2025},
-  howpublished={GitHub repository}
 }
 ```
 
