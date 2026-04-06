@@ -94,8 +94,6 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 
 ### Example Results
 
-你可以插入结果图：
-
 ```markdown
 ![Result](./assert/results.png)
 ```
