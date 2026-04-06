@@ -26,73 +26,39 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 
 **Fan Liu**<sup>1</sup>, **Zhiyong Cheng**<sup>2</sup>\*, **Lei Zhu**<sup>3</sup>, **Zan Gao**<sup>2</sup>, **Liqiang Nie**<sup>1</sup>\*
 
-<sup>1</sup> `<Shandong University, China>`  
+<sup>1</sup> `Shandong University, China`  
 <sup>2</sup> `Shandong Artificial Intelligence Institute, China`  
 <sup>3</sup> `Shandong Normal University, China`  
 \* Corresponding author
 
 ## Links
 
-- **Paper**: [`Paper Link`](<paper-link>)
-- **Project Page**: [`Project Page`](<project-page-link>)
-- **Hugging Face Model**: [`Model`](<huggingface-model-link>)
-- **Hugging Face Dataset**: [`Dataset`](<huggingface-dataset-link>)
-- **Demo / Video**: [`Demo`](<demo-link>)
-- **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/<repo-name>)
-
-> 如果某些链接暂时没有，可以先删掉对应条目，后续再补充。
-
----
-
-## Table of Contents
-
-- [Updates](#updates)
-- [Introduction](#introduction)
-- [Highlights](#highlights)
-- [Method / Framework](#method--framework)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Checkpoints / Models](#checkpoints--models)
-- [Dataset / Benchmark](#dataset--benchmark)
-- [Usage](#usage)
-- [Demo / Visualization](#demo--visualization)
-- [TODO](#todo)
-- [Citation](#citation)
-- [Acknowledgement](#acknowledgement)
-- [License](#license)
+- **Paper**: [`Paper Link`](https://dl.acm.org/doi/abs/10.1145/3442381.3449986)
+- **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/WWW21-IMPGCN)
 
 ---
 
 ## Updates
 
-- [MM/YYYY] Initial release
-- [MM/YYYY] Release paper / arXiv version
-- [MM/YYYY] Release code
-- [MM/YYYY] Release checkpoints on Hugging Face
-- [MM/YYYY] Release dataset / benchmark / demo
-
-> 如果项目刚建立，可以先只保留一条：
->
-> - [MM/YYYY] Initial release
+- [02/2021] Initial release
+- [02/2021] Release paper / arXiv version
+- [02/2021] Release code
 
 ---
 
 ## Introduction
 
-本项目是论文 **`<Paper Title>`** 的官方实现 / 复现实现 / 项目主页。
+本项目是论文 **`Interest-aware Message-Passing GCN for Recommendation`** 的官方实现。
 
 请在这里简要说明：
 
 - 论文要解决什么问题
 - 方法的核心思想是什么
 - 与现有方法相比有什么特点
-- 本仓库提供了哪些内容，例如：
+- 本仓库提供了：
   - 训练代码
-  - 推理代码
-  - 模型权重
-  - 数据处理脚本
-  - 评测脚本
-  - Demo
+  - 训练集
+  - 测试集
 
 ### Example Description
 
