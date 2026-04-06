@@ -69,7 +69,7 @@ Our method addresses the **over-smoothing and noisy message propagation problem*
 ### Framework Figure
 
 ```markdown
-![Framework](./assets/Framework.pdf)
+![Framework](./assert/Framework.pdf)
 ```
 
 **Figure 1.** Overall framework of `<Method Name>`.
@@ -97,7 +97,7 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 你可以插入结果图：
 
 ```markdown
-![Result](./assets/results.png)
+![Result](./assert/results.png)
 ```
 
 ---
