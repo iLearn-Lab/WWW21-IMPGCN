@@ -1,6 +1,6 @@
 # `Interest-aware Message-Passing GCN for Recommendation`
 
-> `<One-sentence summary of the paper or project>`
+> `IMP-GCN improves GCN-based recommendation by restricting high-order message passing to interest-consistent subgraphs, effectively alleviating over-smoothing and noisy propagation.`
 
 ## Authors
 
