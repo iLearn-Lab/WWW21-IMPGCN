@@ -72,6 +72,8 @@ Our method addresses the **over-smoothing and noisy message propagation problem*
 ![Framework](./assets/framework.png)
 ```
 
+<img src="./assets/framework.png" width="400">
+
 **Figure 1.** Overall framework of `IMP-GCN`.
 
 ---
