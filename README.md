@@ -59,21 +59,11 @@ This repository provides the official implementation, pretrained checkpoints, an
 
 ## Method / Framework
 
-你可以在这里放方法框架图、模型结构图或整体 pipeline 图。
-
 ### Framework Figure
 
 ```markdown
 ![Framework](./assets/framework.png)
 ```
-
-实际使用时，把上面这行替换成：
-
-```markdown
-![Framework](./assets/framework.png)
-```
-
-然后在下面补一句说明：
 
 **Figure 1.** Overall framework of `<Method Name>`.
 
@@ -103,18 +93,9 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 ![Result](./assets/result.png)
 ```
 
-或者放一个简单结果表：
-
-| Setting | Result |
-|---|---:|
-| Baseline | xx.x |
-| Ours | xx.x |
-
 ---
 
 ## Citation
-
-如果你的项目对应论文，请提供 BibTeX：
 
 ```bibtex
 @inproceedings{10.1145/3442381.3449986,
