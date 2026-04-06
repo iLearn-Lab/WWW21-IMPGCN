@@ -26,8 +26,9 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 
 **Fan Liu**<sup>1</sup>, **Zhiyong Cheng**<sup>2</sup>\*, **Lei Zhu**<sup>3</sup>, **Zan Gao**<sup>2</sup>, **Liqiang Nie**<sup>1</sup>\*
 
-<sup>1</sup> `<Affiliation 1>`  
-<sup>2</sup> `<Affiliation 2>`  
+<sup>1</sup> `<Shandong University, China>`  
+<sup>2</sup> `Shandong Artificial Intelligence Institute, China`  
+<sup>3</sup> `Shandong Normal University, China`  
 \* Corresponding author
 
 ## Links
