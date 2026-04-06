@@ -24,7 +24,7 @@ python IMP_GCN.py --dataset gowalla  --regs [1e-4] --embed_size 64 --layer_size 
 
 ## Authors
 
-**Fan Liu**<sup>1</sup>, **Zhiyong Cheng**<sup>2</sup>, **Lei Zhu**<sup>3</sup>, **Zan Gao**<sup>2</sup>, **Liqiang Nie**<sup>1</sup>\*
+**Fan Liu**<sup>1</sup>, **Zhiyong Cheng**<sup>2</sup>\*, **Lei Zhu**<sup>3</sup>, **Zan Gao**<sup>2</sup>, **Liqiang Nie**<sup>1</sup>\*
 
 <sup>1</sup> `<Affiliation 1>`  
 <sup>2</sup> `<Affiliation 2>`  
