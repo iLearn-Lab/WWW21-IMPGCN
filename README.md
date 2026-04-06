@@ -80,8 +80,6 @@ This repository provides the official implementation, pretrained checkpoints, an
 ---
 
 
-
-
 ## Usage
 
 ## Environment Settings
