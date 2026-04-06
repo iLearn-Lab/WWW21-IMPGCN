@@ -50,10 +50,10 @@ This repository provides the official implementation, pretrained checkpoints, an
 
 ## Highlights
 
-- 支持 `<task / domain>`
+- 支持 `<CF-based recommendation Task>`
 - 提供 `<training / inference / evaluation>` 脚本
-- 提供 `<checkpoint / dataset / benchmark / demo>`
-- 适合用于 `<论文复现 / 项目展示 / 后续研究>`
+- 提供 `<dataset>`
+- 适合用于 `<论文复现 / 后续研究>`
 
 ---
 
