@@ -68,7 +68,7 @@ Our method addresses the **over-smoothing and noisy message propagation problem*
 
 ### Framework Figure
 
-<img src="./assets/framework.png" width="400">
+<img src="./assets/framework.png" width="600">
 
 **Figure 1.** Overall framework of `IMP-GCN`.
 
